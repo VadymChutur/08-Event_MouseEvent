@@ -39,3 +39,21 @@ mouseWheelEl.addEventListener(
   },
   { passive: false, capture: true }
 );
+
+// mouseWheelEl.addEventListener('contextmenu', () => {
+//   console.log('context menu');
+//   //   event.preventDefault();
+//   return false;
+// });
+
+function test() {
+  console.log(2 / 3);
+}
+
+function test2() {
+  return 2 / 3;
+}
+
+test();
+console.log(3 * test());
+console.log(3 * test2());
